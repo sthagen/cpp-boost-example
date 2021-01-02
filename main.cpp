@@ -13,7 +13,7 @@
 #include <boost/date_time/posix_time/posix_time.hpp>
 
 void print(const boost::system::error_code& /*e*/) {
-    std::cout << "Hello, world!" << std::endl;
+    std::cout << "Hello, world!\n";
 }
 
 int main() {
